@@ -8,7 +8,7 @@
 ---
 
 ## 📸 App Preview
-![App Screenshot](https://via.placeholder.com/800x400.png?text=Heart+Stroke+Prediction+App)
+![App Screenshot](screenshot.png)
 
 ---
 
