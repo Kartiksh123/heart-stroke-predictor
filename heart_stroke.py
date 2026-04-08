@@ -2,16 +2,13 @@ import streamlit as st
 import pandas as pd
 import joblib
 import numpy as np
-from dotenv import load_dotenv
 import os
-
-load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-model_path = os.path.join(BASE_DIR, os.getenv("MODEL_FILE", "knn_heart_model.pkl"))
-scaler_path = os.path.join(BASE_DIR, os.getenv("SCALER_FILE", "heart_scaler.pkl"))
-columns_path = os.path.join(BASE_DIR, os.getenv("COLUMNS_FILE", "heart_columns.pkl"))
+model_path = "knn_heart_model.pkl"
+scaler_path = "heart_scaler.pkl"
+columns_path = "heart_columns.pkl"
 print("MODEL:", model_path)
 print("SCALER:", scaler_path)
 print("COLUMNS:", columns_path)
