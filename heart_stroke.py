@@ -17,11 +17,11 @@ st.set_page_config(page_title="Heart Stroke Predictor", layout="centered")
 
 # Load model files (must be in same folder)
 try:
-    model = joblib.load(model_path)
-    scaler = joblib.load(scaler_path)
-    expected_columns = joblib.load(columns_path)
+    model = joblib.load("knn_heart_model.pkl")
+    scaler = joblib.load("heart_scaler.pkl")
+    expected_columns = joblib.load("heart_columns.pkl")
 except Exception as e:
-    st.error(f"❌ Error: {e}")
+    st.error(f"Error loading model: {e}")
     st.stop()
 
 # Title
