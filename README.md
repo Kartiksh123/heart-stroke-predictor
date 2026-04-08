@@ -10,6 +10,9 @@
 ## 📸 App Preview
 ![App Screenshot](screenshot.png)
 
+## 🌐 Live Demo
+🔗 https://heart-stroke-predictor-gocpppwgmym2tzbshbnxw4.streamlit.app/
+
 ---
 
 ## 📌 About the Project
